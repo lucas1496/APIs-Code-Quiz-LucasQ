@@ -1,28 +1,28 @@
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts"
+        title: "Commonly used data types DO NOT include",
+        choices: ["Strings", "Booleans", "Alerts", "Numbers"],
+        answer: "Alerts"
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses"
+        title: "The condition in an if / else statement is enclosed within ____",
+        choices: ["Quotes", "Curly brackets", "Parentheses", "Square brackets"],
+        answer: "Parentheses"
     },
     {
-        title: "Arrays in Javascript can be used to store ____.",
-        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
-        answer: "all of the above"
+        title: "Arrays in Javascript can be used to store ____",
+        choices: ["Numbers and strings", "Other arrays", "Booleans", "All of the above"],
+        answer: "All of the above"
     },
     {
-        title: "String values must be enclosed within ____ when being assigned to variables.",
-        choices: ["commas", "curly brackets", "quotes", "parenthesis"],
-        answer: "quotes"
+        title: "String values must be enclosed within ____ when being assigned to variables",
+        choices: ["Commas", "Curly brackets", "Quotes", "Parenthesis"],
+        answer: "Quotes"
     },
     {
-        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
-        choices: ["Javascript", "terminal / bash", "for loops", "console log"],
-        answer: "console log"
+        title: "A very useful tool for used during development and debugging for printing content to the debugger is",
+        choices: ["Javascript", "Terminal / bash", "For loops", "Console.log"],
+        answer: "Console.log"
     },
 
 ];
@@ -99,7 +99,7 @@ function compare(event) {
             createDiv.textContent = "Correct! The answer is:  " + questions[questionIndex].answer;
             // Correct condition 
         } else {
-            // Will deduct -5 seconds off secondsLeft for wrong answers
+            // Will deduct -15 seconds off secondsLeft for wrong answers
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }

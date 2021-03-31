@@ -97,8 +97,7 @@
             border-top: 1px solid ivory;
         }
 
-        /* Start media queries */
-        /* A Media Query max-width: 786px */
+       
 @media screen and (max-width: 786px) {
     /* Resized content to fit 786px  */
         body {
