@@ -5,7 +5,7 @@
 This repository contains all the files related to my Code Quiz assignment.
 
 Follow the link bellow to access the deployed application on GitHub pages:
- - link
+ - https://pigodidog.github.io/APIs-Code-Quiz-LucasQ/
 
 
 ## What does this application do?
